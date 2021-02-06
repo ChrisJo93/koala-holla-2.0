@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  margin: 0;
+  display: flex;
+  border-bottom: 2px black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headerImg {
+  background-image: url(https://cdn.mos.cms.futurecdn.net/V3bu9YaurHiQG82iZ8NHt-1024-80.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  max-width: 50%;
+}

@@ -5,10 +5,11 @@ class HeaderComponent extends Component {
     return (
       <div>
         <header>
-          <img src="https://cdn.mos.cms.futurecdn.net/V3bu9YaurHiQG82iZ8NHt-1024-80.jpg.webp" />
-          <h1>Koala Holla</h1>
-          <h3>1976 Llama Comma Drive</h3>
-          <h3>Walla Walla, WA</h3>
+          <div className="headerImg header">
+            <h1 className="header">Koala Holla</h1>
+            <h3 className="header">1976 Llama Comma Drive</h3>
+            <h3 className="header">Walla Walla, WA</h3>
+          </div>
         </header>
       </div>
     );
