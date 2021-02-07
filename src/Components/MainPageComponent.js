@@ -24,7 +24,7 @@ class MainPageComponent extends Component {
 
   render() {
     return (
-      <div>
+      <div className="formContainer">
         <h2>All Koalas</h2>
         <TextField
           style={{ backgroundColor: 'white' }}

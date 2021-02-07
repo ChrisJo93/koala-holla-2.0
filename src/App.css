@@ -45,5 +45,27 @@
   background-image: url(https://cdn.mos.cms.futurecdn.net/V3bu9YaurHiQG82iZ8NHt-1024-80.jpg.webp);
   background-size: cover;
   background-position: center;
-  max-width: 50%;
+  text-align: right;
+}
+
+.headerText {
+  /* Safari transitionend event.propertyName === flex */
+  /* Chrome + FF transitionend event.propertyName === flex-grow */
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+  margin: 10px;
+  align-items: revert;
+}
+
+.formContainer {
+  border: 2.5px solid black;
+  box-shadow: 0 0 5px lime;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  padding: 10px 2px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
