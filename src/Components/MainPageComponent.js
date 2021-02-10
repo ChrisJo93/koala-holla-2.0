@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import { FormControlLabel, Switch, TextField } from '@material-ui/core';
 
+//to-do:
+//Create koala2.0 database
+//Route to koala tables
+//associate a click event to ready to transfer
+//style header to be persistent
+//add sw3 for koala images
+//make koala images scalable onclick
+
 class MainPageComponent extends Component {
   state = {
     name: '',
@@ -88,7 +96,15 @@ class MainPageComponent extends Component {
               <th>Notes</th>
             </tr>
           </thead>
-          <tbody id="viewKoalas"></tbody>
+          <tbody id="viewKoalas">
+            <tr>
+              <td>Data</td>
+              <td>Data2</td>
+              <td>Data2</td>
+              <td>Data2</td>
+              <td>Data2</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     );
